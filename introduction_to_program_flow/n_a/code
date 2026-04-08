@@ -1,11 +1,11 @@
 #include <iostream>
 
 int calculateReward(int customerPosition) {
-    int ___ = ___;
-    for (int i = ___; i < ___; i++) {
-        ___ += ___;
+    int reward = 100;
+    for (int i = 1; i < customerPosition; i++) {
+        reward += 50;
     }
-    return ____;
+    return reward;
 }
 
 int main() {
